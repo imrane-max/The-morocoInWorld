@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/image" href="images/favicon.png">
+<title>مغاربت العالم</title>
+<style>
+  body { font-family: "Tajawal", sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+  header { background-color: #006233; color: white; text-align: center; padding: 20px 0; }
+  h1 { margin: 0; }
+  main { max-width: 900px; margin: 40px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+  ul { list-style: none; padding: 0; }
+  li { background: #fafafa; margin: 15px 0; padding: 15px; border-right: 5px solid #c1272d; border-radius: 8px; }
+  strong { color: #006233; font-size: 1.2em; }
+  footer { background-color: #006233; color: rgb(0, 0, 0); text-align: center; padding: 10px 0; margin-top: 40px; }
+  button { background-color: #006233; color: white; box-shadow: 0 0 10px #00c968; padding: 10px 15px; border-radius: 5px; cursor: pointer;  transition: transform 0.3s ease;}
+  button:hover { background-color: #005026; transform: scale(1.2);}
+  .field { color: #333; font-size: 0.95em; display: block; margin-top: 5px; }
+  .desc { color: #555; font-size: 0.9em; margin-top: 8px; line-height: 1.6; }
+  .dark-mode { background-color: #121212; color: #e0e0e0; transition: 0.3s; }
+  .dark-mode header { background-color: #1e1e1e; }
+  .dark-mode main { background: #1e1e1e; box-shadow: 0 0 10px rgba(255,255,255,0.1); }
+  .dark-mode li { background: #2c2c2c; border-right-color: #ff6f61; }
+  .dark-mode strong { color: #ff6f61; }
+  .dark-mode .field { color: #bbb; }
+  .dark-mode .desc { color: #ccc; }
+  .dark-mode button { background-color: #333; color: #e0e0e0; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+  .dark-mode button:hover { background-color: #444; }
+  .dark-mode button:focus { outline: none; box-shadow: 0 0 5px #ff6f61; }
+  .dark-mode button:active { background-color: #555; }
+  .dark-mode button { background-color: #333; color: #e0e0e0; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+  .dark-mode footer { background-color: #1e1e1e; color: #bbb; text-align: center; padding: 15px 0; margin-top: 40px; }
+
+</style>
+</head>
+<body>
+  <header>
+    <button onclick="toggleMode()">تبديل الوضع الفاتح/الداكن</button>
+    <h1>مغاربة العالم</h1>
+  </header>
+
+  <main>
+    <ul>
+      <li>
+        <strong>ابن رشد</strong>
+        <span class="field">فيلسوف وطبيب (القرن 12)</span>
+        <p class="desc">من أكبر فلاسفة الإسلام، شرح مؤلفات أرسطو ودمج بين الفلسفة والدين. أثّر في الفكر الأوروبي في العصور الوسطى وكان له تأثير عميق على النهضة الغربية.</p>
+      </li>
+
+      <li>
+        <strong>ابن بطوطة</strong>
+        <span class="field">رحالة وجغرافي (القرن 14)</span>
+        <p class="desc">سافر أكثر من 120,000 كم عبر إفريقيا وآسيا وأوروبا. دوّن رحلاته في كتاب "تحفة النظار"، أحد أهم مصادر الجغرافيا التاريخية في العالم الإسلامي.</p>
+      </li>
+
+      <li>
+        <strong>الحسن الوزان (ليون الإفريقي)</strong>
+        <span class="field">جغرافي ودبلوماسي (القرن 16)</span>
+        <p class="desc">كتب "وصف إفريقيا" الذي عرّف أوروبا بشمال إفريقيا لأول مرة بدقة علمية. عاش بين فاس وروما، وكان همزة وصل بين الثقافتين العربية والأوروبية.</p>
+      </li>
+
+      <li>
+        <strong>رشيد اليزمي</strong>
+        <span class="field">عالم فيزياء وكيمياء (معاصر)</span>
+        <p class="desc">مخترع تقنية الشحن في بطاريات الليثيوم أيون التي تُستخدم في الهواتف والحواسيب. نال جوائز علمية عالمية ويقيم بين فرنسا وسنغافورة.</p>
+      </li>
+
+      <li>
+        <strong>منصف السلاوي</strong>
+        <span class="field">عالم أحياء ومناعي (معاصر)</span>
+        <p class="desc">قاد فريق تطوير لقاح كوفيد-19 في الولايات المتحدة ضمن "عملية السرعة الفائقة". يُعد من أبرز العلماء المغاربة في الطب الحيوي عالميًا.</p>
+      </li>
+
+      <li>
+        <strong>كوثر حفيظي</strong>
+        <span class="field">عالمة فيزياء نووية (معاصرة)</span>
+        <p class="desc">تشغل منصبًا قياديًا في مختبر "أرغون الوطني" الأمريكي، وتساهم في تطوير بحوث الطاقة النووية النظيفة ودعم النساء في مجالات العلوم.</p>
+      </li>
+
+      <li>
+        <strong>كريمة عواد</strong>
+        <span class="field">عالمة مناخ وبيئة (معاصرة)</span>
+        <p class="desc">خبيرة بالأمم المتحدة في التغير المناخي، تشارك في إعداد تقارير الهيئة الحكومية الدولية المعنية بتغير المناخ (IPCC) وتدافع عن العدالة البيئية.</p>
+      </li>
+    </ul>
+  </main>
+  <Footer>
+    <p>Made by Imrane</p>
+  </Footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
